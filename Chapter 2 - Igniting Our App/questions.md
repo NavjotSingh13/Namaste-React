@@ -18,3 +18,16 @@ Ans.
 
 Q8. What is Transitive dependencies?
 Ans. When a package is dependent on various other packages and those packages are also dependent on some other packages.
+
+Q9. Difference between NPM and NPX?
+
+Q10. Why we should not fetch react from CDN?
+
+Q11. What is HMR?
+
+Q12. What is consistent hashing?
+
+Q13. What is code splitting
+
+Q14. What is differential bundling?
+Ans. o support older browsers
