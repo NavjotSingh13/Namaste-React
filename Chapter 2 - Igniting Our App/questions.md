@@ -31,3 +31,11 @@ Q13. What is code splitting
 
 Q14. What is differential bundling?
 Ans. o support older browsers
+
+Q15. What is Tree shaking?
+Ans. Remove unused code
+
+Q16. What is browserlist ?
+Ans. It allows  your website to work on older browsers as well.
+
+Q17. Why react is fast?
