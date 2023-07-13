@@ -1,0 +1,2 @@
+Q1. How to create NPM scripts for dev and production mode?
+Ans. o define an NPM script, set its name and write the script under the 'scripts' property of your package. json file: To execute your Script, use the 'npm run <NAME-OF-YOUR-SCRIPT>' command. 
