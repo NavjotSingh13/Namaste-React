@@ -37,3 +37,10 @@ Ans. Using curly braces {}
 Q13. Hot to write functional component?
 Ans. It should be in capital letter
 
+Q14. What is React Fragments?
+Ans. <></> or <React.Fragment></React.Fragment>
+React Fragment behave like an empty tag because in JSX, there acan only be one root level parent.
+
+Q15. Can we have multiple roots in react?
+
+Q16. Can we have one react fragment inside other?
