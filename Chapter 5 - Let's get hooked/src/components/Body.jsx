@@ -2,6 +2,7 @@
 // We are mapping restaurantList array and passing data to RestaurantCard component as props with unique key as index
 
 import RestaurantCard from "./RestaurantCard";
+import restaurantList from "../../utils/constants";
 
 const Body = () => {
     return (
