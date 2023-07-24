@@ -6,21 +6,23 @@ import restaurantList from "../../utils/constants";
 import { useState } from "react";
 
 const Body = () => {
-  const [ListOfRestaurants, setListOfRestaurant] = useState(restaurantList);
+  const [listOfRestaurant, setListOfRestaurant] = useState(restaurantList);
 
   return (
     <>
     <div className="body">
       <div className="filter">
         <button className="filter-btn" onClick={() => {
-          const filteredList = ListOfRestaurants.filter(
-            {res} => res.data.avgRating > 4
+          const filteredList = listOfRestaurant.filter(
+            (res) => res.data.avgRating > 4
           );
           setListOfRestaurant(filteredList);
-        }}>Top Rated Restaurant</button>
+        }}
+        >
+          Top Rated Restaurant</button>
         </div>
       <div className="restaurant-list">
-        {restaurantList.map((restaurant) => {
+        {listOfRestaurant.map((restaurant) => {
           return (
             <RestaurantCard key={restaurant.data.id} {...restaurant.data} />
           );
