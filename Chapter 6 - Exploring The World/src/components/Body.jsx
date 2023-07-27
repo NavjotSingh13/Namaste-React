@@ -4,6 +4,7 @@
 import RestaurantCard from "./RestaurantCard";
 import restaurantList from "../../utils/constants";
 import { useState, useEffect } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState(restaurantList);
@@ -18,13 +19,14 @@ const Body = () => {
     );
 
     const json = await data.json();
-    console.log(json);
 
+    // Optional Chaining
+    setListOfRestraunt(json?.data?.cards[2]?.data?.data?.cards);
   };
 
+  //Conditional Rendering
 
-
-  return (
+  return listOfRestaurant.length === 0 ? <Shimmer /> : (
     <>
     <div className="body">
       <div className="filter">
