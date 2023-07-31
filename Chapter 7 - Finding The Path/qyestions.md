@@ -21,3 +21,18 @@ Ans. All the hooks name starts with "use".
 
 Q9. What is useRouteError hook in react-router-dom library?
 Ans. This hook is used to display more details about an error.
+
+Q10. What is outlet in react-router-dom?
+
+Q11. What is children routes?
+
+Q12. Why we should not use <a> tag for routing in react?
+Ans. Because it will reload the entire page
+
+Q13. What is link in react-router-dom?
+
+Q14. What is SPA?
+
+Q15. What is Client Side and Server Side Routing?
+Ams. SSR - the app is making some network calls and reloading the page
+     CSR - the app is neither making any network calls nor reloading the page 
