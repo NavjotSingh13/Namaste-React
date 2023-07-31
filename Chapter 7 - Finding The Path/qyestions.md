@@ -15,3 +15,9 @@ Q5. What is reac router dom library?
 Q6. What is createBrowserRouter?
 
 Q7. What is RouterProvider?
+
+Q8. How all he hooks name starts with?
+Ans. All the hooks name starts with "use".
+
+Q9. What is useRouteError hook in react-router-dom library?
+Ans. This hook is used to display more details about an error.
