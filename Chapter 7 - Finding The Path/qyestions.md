@@ -38,3 +38,5 @@ Ams. SSR - the app is making some network calls and reloading the page
      CSR - the app is neither making any network calls nor reloading the page 
 
 Q16. What is Dynamic routing?
+
+Q17. What is useParams hook?
