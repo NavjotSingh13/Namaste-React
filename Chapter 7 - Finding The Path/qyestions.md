@@ -36,3 +36,5 @@ Q14. What is SPA?
 Q15. What is Client Side and Server Side Routing?
 Ams. SSR - the app is making some network calls and reloading the page
      CSR - the app is neither making any network calls nor reloading the page 
+
+Q16. What is Dynamic routing?
