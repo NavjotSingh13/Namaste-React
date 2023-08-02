@@ -10,7 +10,7 @@ Ans. If there is a dependencyarray, the useEffect will be called everytime the d
 Q4. What is the best place to add useState?
 Ans. It should be added on the top or starting of functional component.
 
-Q5. What is reac router dom library?
+Q5. What is react router dom library?
 
 Q6. What is createBrowserRouter?
 
@@ -39,5 +39,6 @@ Ams. SSR - the app is making some network calls and reloading the page
      CSR - the app is neither making any network calls nor reloading the page 
 
 Q16. What is Dynamic routing?
+Ans. When we say dynamic routing, we mean routing that takes place as your app is rendering, not in a configuration or convention outside of a running app. That means almost everything is a component in React Router.
 
 Q17. What is useParams hook?
