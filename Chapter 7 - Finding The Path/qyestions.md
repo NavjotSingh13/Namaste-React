@@ -42,3 +42,4 @@ Q16. What is Dynamic routing?
 Ans. When we say dynamic routing, we mean routing that takes place as your app is rendering, not in a configuration or convention outside of a running app. That means almost everything is a component in React Router.
 
 Q17. What is useParams hook?
+Ans. useParams is a Client Component hook that lets you read a route's dynamic params filled in by the current URL.
