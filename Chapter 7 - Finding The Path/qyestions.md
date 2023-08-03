@@ -23,8 +23,10 @@ Q9. What is useRouteError hook in react-router-dom library?
 Ans. This hook is used to display more details about an error.
 
 Q10. What is outlet in react-router-dom?
+Ans. An <Outlet> should be used in parent route elements to render their child route elements. This allows nested UI to show up when child routes are rendered. If the parent route matched exactly, it will render a child index route or nothing if there is no index route.
 
 Q11. What is children routes?
+Ans. A child route is like any other route, in that it needs both a path and a component . The one difference is that you place child routes in a children array within the parent route.
 
 Q12. Why we should not use <a> tag for routing in react?
 Ans. Because it will reload the entire page
