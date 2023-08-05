@@ -11,6 +11,7 @@ Q4. What is the best place to add useState?
 Ans. It should be added on the top or starting of functional component.
 
 Q5. What is react router dom library?
+Ans. React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React.
 
 Q6. What is createBrowserRouter?
 
@@ -32,6 +33,7 @@ Q12. Why we should not use <a> tag for routing in react?
 Ans. Because it will reload the entire page
 
 Q13. What is link in react-router-dom?
+Ans. A <Link> is an element that lets the user navigate to another page by clicking or tapping on it. In react-router-dom , a <Link> renders an accessible <a> element with a real href that points to the resource it's linking to. This means that things like right-clicking a <Link> work as you'd expect.
 
 Q14. What is SPA?
 Ans. A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages. The goal is faster transitions that make the website feel more like a native app.
