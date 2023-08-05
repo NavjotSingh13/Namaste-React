@@ -8,6 +8,7 @@ Ans. Passing a prop to a component is just like passing an argument to a functio
 Q4. What is Destructuring on the fly?
 
 Q5. What is Config Driven UI?
+Ans. In a configuration-driven UI, the layout, styles, and other properties of UI elements are defined in a configuration file or database, which can be easily modified without requiring changes to the codebase.
 
 Q6. What is JavaScript Array join()?
 
