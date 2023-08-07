@@ -6,9 +6,9 @@ const About = () => {
     <div>
         <h1>About</h1>
 
-        <User />
+        <User name = {"Prince"} />
         <br /><br />
-        <UserClass />
+        <UserClass name = {"Price"} />
 
     </div>
   )
