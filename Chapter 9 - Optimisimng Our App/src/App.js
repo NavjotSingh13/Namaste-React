@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import AppLayout from "./components/AppLayout";
 import About from './components/About';
@@ -7,6 +7,7 @@ import Body from "./components/Body";
 import Error from "./components/Error";
 import SingleRestaurant from "./components/SingleRestaurant";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Grocery from "./components/Grocery";
 
 
 const appRouter = createBrowserRouter([
@@ -27,6 +28,10 @@ const appRouter = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact />
+            },
+            {
+                path: '/components/Grocery',
+                element: <Suspense fallback={<h1>Loading.......</h1>}><Grocery /></Suspense>
             },
             {
                 path: '/restaurant/:resId',
