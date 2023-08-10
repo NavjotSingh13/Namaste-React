@@ -12,12 +12,12 @@ const Header = () => {
     return (
       <div className="header">
         <div className="nav-items">
-          <ul>
+          <ul className="flex justify-between p-4">
             <li><Link to="/">Home</Link></li>
-            <li>Online Status: {onlineStatus ? "✔️" : "🚫"}</li>
+            <li className="text-pink-700">Online Status: {onlineStatus ? "✔️" : "🚫"}</li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="./components/Grocery">Grocery</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li className="text-pink-700"><Link to="/contact">Contact</Link></li>
             <button onClick={()=> loginText == "Login" ? updateLoginText("LogOut") : updateLoginText("Login") }>{loginText}</button>
             <li><i class="fa-solid fa-cart-shopping"></i></li>
           </ul>
